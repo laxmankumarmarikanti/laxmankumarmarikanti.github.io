@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Laxman Kumar Marikanti, a Software Engineer skilled in Python, Odoo, and full-stack development.">
-    <meta name="keywords" content="Laxman Kumar, Software Engineer, Python, Odoo, Full-Stack Developer, Hyderabad">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Laxman Kumar Marikanti - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="/assets/js/scripts.js" ></script>
 </head>
 <body>
     <!-- Navbar -->
@@ -22,6 +19,12 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn" title="Toggle Dark/Light Mode">
+                <span class="sun-icon">☀️</span>
+                <span class="moon-icon">🌙</span>
+            </button>
+        </div>
         <div class="burger">
             <div class="line"></div>
             <div class="line"></div>
@@ -46,15 +49,34 @@
     <section id="skills">
         <h1>Skills</h1>
         <div class="skills-container">
-            <ul>
-                <li><strong>Programming Languages:</strong> Python, C++, XML, HTML, CSS, JavaScript</li>
-                <li><strong>Frameworks and Tools:</strong> Fast API, Redis, Odoo, Git, PyCharm, VS Code</li>
-                <li><strong>ERP Systems:</strong> Odoo Module Development, Accounting with Odoo</li>
-                <li><strong>Integrations:</strong> Shopify, E-Way Bill, SMS Service Provider</li>
-                <li><strong>Database Management:</strong> PostgreSQL, Redis</li>
-                <li><strong>Development Practices:</strong> Multi-threading, Parallelism, Micro Services, Agile</li>
-                <li><strong>Languages:</strong> Telugu, English, Hindi</li>
-            </ul>
+            <div class="skill-card">
+                <h3>Programming Languages</h3>
+                <p>Python, C++, XML, HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h3>Frameworks and Tools</h3>
+                <p>Fast API, Redis, Odoo, Git, PyCharm, VS Code</p>
+            </div>
+            <div class="skill-card">
+                <h3>ERP Systems</h3>
+                <p>Odoo Module Development, Accounting with Odoo</p>
+            </div>
+            <div class="skill-card">
+                <h3>Integrations</h3>
+                <p>Shopify, E-Way Bill, SMS Service Provider</p>
+            </div>
+            <div class="skill-card">
+                <h3>Database Management</h3>
+                <p>PostgreSQL, Redis</p>
+            </div>
+            <div class="skill-card">
+                <h3>Development Practices</h3>
+                <p>Multi-threading, Parallelism, Micro Services, Agile</p>
+            </div>
+            <div class="skill-card">
+                <h3>Languages</h3>
+                <p>Telugu, English, Hindi</p>
+            </div>
         </div>
     </section>
 
@@ -135,9 +157,9 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Laxman Kumar Marikanti. All rights reserved.</p>
+        <p>© 2025 Laxman Kumar Marikanti. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
